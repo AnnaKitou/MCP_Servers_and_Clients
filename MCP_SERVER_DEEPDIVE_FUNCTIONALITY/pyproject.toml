@@ -1,0 +1,14 @@
+[project]
+name = "mcp-server-deepdive-functionality"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp[cli]>=1.25.0",
+    "openai>=2.15.0",
+    "pillow>=12.1.0",
+    "pyautogui>=0.9.54",
+    "pyscreeze>=1.0.1",
+    "requests>=2.32.5",
+]
