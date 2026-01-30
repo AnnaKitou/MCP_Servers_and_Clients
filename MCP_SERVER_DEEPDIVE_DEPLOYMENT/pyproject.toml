@@ -1,0 +1,23 @@
+[project]
+name = "mcp-server-deepdive-deployment"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp[cli]>=1.26.0",
+]
+
+[project.scripts]
+mcp-server = "mcpserver.__main__:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build.__meta__"
+
+[tool.setuptools]
+package-dir = {""="src"}
+
+[tool.setuptools.package.find]
+where = ["src"]
+
