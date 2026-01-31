@@ -1,6 +1,5 @@
 def main():
-    print("Hello from mcp-server-deepdive-deployment!")
-
+    print("Hello from mcpserver-deepdive-deployment!")
 
 if __name__ == "__main__":
     main()
