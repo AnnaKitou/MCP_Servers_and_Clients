@@ -6,7 +6,7 @@ Install this mcp server by adding the following json code to your json config fi
       "command": "uvx",
       "args": [
         "--from",
-        "git@github.com:AnnaKitou/MCP_Servers_and_Clients.git",
+        "gitHubRepo.git",
         "chess"
       ]
     }
